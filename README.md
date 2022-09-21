@@ -21,3 +21,21 @@ pip3 --version
 python3 -m pip install ansible
 ansible --version
 ```
+
+
+## Troubleshooting
+
+In case of the below error
+<pre>
+cryptographydeprecationwarning-python-3-6-is-no-longer-supported-by-the-python
+</pre>
+
+Edit the file
+```
+sudo vim /usr/local/lib/python3.6/site-packages/ansible/parsing/vault/__init__.py
+```
+
+Add the below before importing crypto package
+<pre>
+warnings.filterwarnings(action='ignore',message='Python 3.6 is no longer supported')
+</pre>
