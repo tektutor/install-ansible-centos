@@ -39,3 +39,17 @@ Add the below before importing crypto package
 <pre>
 warnings.filterwarnings(action='ignore',message='Python 3.6 is no longer supported')
 </pre>
+
+## Final you should have an working ansible setup
+<pre>
+[jegan@tektutor.org windows-node]$ ansible --version
+ansible [core 2.11.12] 
+  config file = /home/jegan/.ansible.cfg
+  configured module search path = ['/home/jegan/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/local/lib/python3.6/site-packages/ansible
+  ansible collection location = /home/jegan/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/local/bin/ansible
+  python version = 3.6.8 (default, Nov 16 2020, 16:55:22) [GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+  jinja version = 3.0.3
+  libyaml = True
+</pre>
