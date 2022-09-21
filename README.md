@@ -27,8 +27,8 @@ ansible --version
 
 In case of the below error
 <pre>
-cryptographydeprecationwarning-python-3-6-is-no-longer-supported-by-the-python
-</pre>
+/usr/local/lib/python3.6/site-packages/ansible/parsing/vault/__init__.py:44: CryptographyDeprecationWarning: Python 3.6 is no longer supported by the Python core team. Therefore, support for it is deprecated in cryptography and will be removed in a future release.
+  from cryptography.exceptions import InvalidSignature</pre>
 
 Edit the file
 ```
