@@ -42,7 +42,7 @@ warnings.filterwarnings(action='ignore',message='Python 3.6 is no longer support
 
 ## Finally you should have an working ansible setup
 <pre>
-[jegan@tektutor.org windows-node]$ ansible --version
+[<b>jegan@tektutor.org</b> windows-node]$ <b>ansible --version</b>
 ansible [core 2.11.12] 
   config file = /home/jegan/.ansible.cfg
   configured module search path = ['/home/jegan/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
