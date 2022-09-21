@@ -40,7 +40,7 @@ Add the below before importing crypto package
 warnings.filterwarnings(action='ignore',message='Python 3.6 is no longer supported')
 </pre>
 
-## Final you should have an working ansible setup
+## Finally you should have an working ansible setup
 <pre>
 [jegan@tektutor.org windows-node]$ ansible --version
 ansible [core 2.11.12] 
