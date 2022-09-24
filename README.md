@@ -17,7 +17,7 @@ sudo ln -sf /usr/local/bin/python3.8 /usr/bin/python3
 sudo yum install -y python3-pip
 pip --version
 pip3 --version
-
+pip3 install -U pip
 python3 -m pip install ansible
 ansible --version
 ```
